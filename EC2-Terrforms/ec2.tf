@@ -1,4 +1,4 @@
-resource "aws_instance" "Ram" {
+##resource "aws_instance" "Ram" {
 					ami 						="${var.amiid}"
 					#availability_zone			="${var.region_az}"
 					instance_type				="t2.micro"
